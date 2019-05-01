@@ -13,10 +13,10 @@ def line(katz_deli)
     end
 end
 
-def take_a_number(name)
-  line_count = 0
-  while line_count > 0
-    return "Welcome, #{name}. You are number #{line_count} in line."
-    line_count += 1
+def take_a_number(katz_deli, name)
+  katz_deli = 0
+  while katz_deli > 0
+    return "Welcome, #{name}. You are number #{katz_deli} in line."
+    katz_deli += 1
   end
 end
