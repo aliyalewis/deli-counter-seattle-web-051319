@@ -12,3 +12,11 @@ def line(katz_deli)
       puts line
     end
 end
+
+def take_a_number(name)
+  line_count = 0
+  while line_count > 0
+    return "Welcome, #{name}. You are number #{line_count} in line."
+    line_count += 1
+  end
+end
