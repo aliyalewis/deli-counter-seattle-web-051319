@@ -19,7 +19,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
-  if katz_deli.length == 0
+  if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{name.shift}."
