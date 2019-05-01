@@ -21,7 +21,7 @@ end
 def now_serving(katz_deli, name)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
-  else 
+  else
     puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
   end
 end
